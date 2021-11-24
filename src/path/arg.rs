@@ -1,4 +1,5 @@
-use crate::ffi::{ZStr, ZString};
+#[allow(unused_imports)]
+use crate::ffi::{ZStr, ZStrExt, ZString};
 use crate::io;
 #[cfg(feature = "itoa")]
 use crate::path::DecInt;
